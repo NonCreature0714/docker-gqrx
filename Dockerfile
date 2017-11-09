@@ -1,5 +1,6 @@
 FROM ubuntu:16.04
-MAINTAINER Guy Taylor <thebigguy.co.uk@gmail.com>
+LABEL maintainer.name="Guy Taylor" \
+      maintainer.email="thebigguy.co.uk@gmail.com"
 
 # Configure Apt
 ARG DEBIAN_FRONTEND=noninteractive
